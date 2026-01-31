@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot_plan>
+    <!-- Initial wait -->
+    <wait duration="1.0" />
+    
+    <!-- Move Forward -->
+    <cmd_vel linear="1.5" angular="0.0" />
+    <wait duration="3.0" />
+    
+    <!-- Spin -->
+    <cmd_vel linear="0.0" angular="2.0" />
+    <wait duration="2.0" />
+    
+    <!-- Stop -->
+    <cmd_vel linear="0.0" angular="0.0" />
+</robot_plan>
